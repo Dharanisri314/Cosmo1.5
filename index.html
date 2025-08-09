@@ -9,17 +9,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
-<script src="https://cdn.botpress.cloud/webchat/v3.2/inject.js" defer></script>
-<script src="https://files.bpcontent.cloud/2024/10/13/08/20241013080819-5B7IE0CJ.js" defer></script>
+    <script src="https://cdn.botpress.cloud/webchat/v3.2/inject.js"></script>
 
-
-
+ 
+    
+<style>
+   body {
+      margin: 0;
+      padding: 0;
+    }
+    iframe {
+      width: 100%;
+      height: 100vh; /* Full screen height */
+      border: none;
+    }
 </style>
-
+   
 </head>
 
 <body>
@@ -49,8 +56,8 @@
         </div>
         <div class="hero-container container">
             <div class="hero-content">
-                <h2 class="hero-title">Welcome to <span class="highlight">Cosmo1.5</span> your intelligent AI Assistant
-                    to help you scale.</h2>
+                <h2 class="hero-title">Welcome to <span class="highlight">Cosmo1.5</span> — your intelligent AI
+                    Assistant to help you scale.</h2>
                 <button class="cta-button">
                     <span>LET'S BEGIN</span>
                     <div class="button-glow"></div>
@@ -75,11 +82,11 @@
         <div class="container">
             <div class="about-content">
                 <h2 class="section-title">Cosmo 1.5 is a Highly Intelligent AI Assistant guiding you across your
-                    business
-                    verticals helping you make better decisions in Sustainability and other Allied Sectors.</h2>
+                    business verticals, helping you make better decisions in Sustainability and other Allied Sectors.
+                </h2>
                 <div class="about-description">
                     <p class="description-text">Whether you need information on Manufacturing Partners, Govt Schemes,
-                        Strategies on Indian Market Entry or any other query related to your sector.</p>
+                        Strategies on Indian Market Entry, or any other query related to your sector...</p>
                     <p class="brand-promise"><strong>Cosmo 1.5 has you covered.</strong></p>
                 </div>
             </div>
@@ -106,17 +113,16 @@
             </div>
         </div>
 
-        <div class="chat-box-container">
-            <iframe
-                src="https://cdn.botpress.cloud/webchat/v3.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/13/08/20241013080819-VRF99YJJ.json"
-                style="width: 100%; height: 600px; border: none;" 
-                allow="microphone"
-                title="AI Support Chat">
-            </iframe>
+<iframe 
+  src="https://cdn.botpress.cloud/webchat/v3.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/13/08/20241013080819-VRF99YJJ.json" 
+  style="width: 100%; height: 500px; border: none;">
+</iframe>
+
         </div>
     </section>
 
-    
+
+ 
 
     <footer class="footer">
         <div class="container">
@@ -134,10 +140,6 @@
         </div>
     </footer>
 
-
-
-    
-
     <script>
         // Mobile menu toggle
         const hamburger = document.querySelector('.hamburger');
@@ -148,7 +150,7 @@
             hamburger.classList.toggle('active');
         });
 
-        // Smooth scrolling for navigation links
+        // Smooth scrolling
         const navLinks = document.querySelectorAll('.nav-link');
         navLinks.forEach(link => {
             link.addEventListener('click', function (e) {
@@ -173,6 +175,36 @@
         });
     </script>
 
-</body>
 
+<!-- 
+<script src="https://cdn.botpress.cloud/webchat/v3.2/inject.js"></script>
+
+<script src="https://cdn.botpress.cloud/webchat/v3.2/inject.js" defer></script>
+<script>
+  window.addEventListener('load', () => {
+    window.botpress.init({
+      botId: "10668975-b7e9-4e41-b338-394f76da6973",
+      clientId: "041402da-552b-41d5-b5d6-396353b53653",
+      selector: "#webchat",
+      configuration: {
+        botName: "Cosmo 1.5",
+        botAvatar: "https://files.bpcontent.cloud/2024/09/11/18/20240911182039-HVQX1LTL.png",
+        color: "#3e63dd",
+        themeMode: "light",
+        showPoweredBy: false
+      }
+    });
+  });
+
+  
+</script>
+</script> -->
+
+<!-- <script>
+  function reloadBot() {
+    const iframe = document.getElementById('cosmoChat');
+    iframe.src = iframe.src.split('?')[0] + '?configUrl=https://files.bpcontent.cloud/2024/10/13/08/20241013080819-VRF99YJJ.json&ts=' + Date.now();
+  }
+</script> -->
+</body>
 </html>
