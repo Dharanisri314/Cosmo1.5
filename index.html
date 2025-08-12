@@ -9,18 +9,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-   
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+
     <nav class="navbar">
         <div class="nav-container container">
             <div class="logo">
                 <a href="#home" class="logo-text">Cosmo<span class="version">1.5</span></a>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
+                <li>
+                    <a href="#" class="nav-link"
+                        onclick="window.location.href='https://dharanisri314.github.io/GIG-AI-Labs/#cosmo1'">
+                        Home
+                    </a>
+                </li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#chatbot" class="nav-link">AI Chat</a></li>
             </ul>
@@ -97,20 +104,19 @@
             </div>
         </div>
 
-    <!-- Chatbot iframe -->
-   <div style="background: linear-gradient(135deg, #E6F0FF 0%, #D8E3F2 100%); padding: 30px; display: flex; justify-content: center; width: 100%;">
-    <iframe
-        id="cosmoChat"
-        src="https://cdn.botpress.cloud/webchat/v3.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/13/08/20241013080819-VRF99YJJ.json"
-        style="width: 70%; height: 500px; border: none;">
-    </iframe>
-</div>
+        <!-- Chatbot iframe -->
+        <div
+            style="background: linear-gradient(135deg, #E6F0FF 0%, #D8E3F2 100%); padding: 30px; display: flex; justify-content: center; width: 100%;">
+            <iframe id="cosmoChat"
+                src="https://cdn.botpress.cloud/webchat/v3.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/13/08/20241013080819-VRF99YJJ.json"
+                style="width: 70%; height: 500px; border: none;">
+            </iframe>
+        </div>
 
-     
+
     </section>
 
 
- 
 
     <footer class="footer">
         <div class="container">
@@ -164,4 +170,5 @@
     </script>
 
 </body>
+
 </html>
